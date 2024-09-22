@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- Include SweetAlert CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+<body>
+
+<div id="welcome">
+    <h1>Welcome to JS Quiz</h1>
+    <img src="https://media2.giphy.com/media/UGmBPnuHqZ8KtNpLKk/giphy.gif?cid=6c09b952c1k6xqf5hofnvbxrm7saylz6lxibkhdznsrzq2wg&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" alt="Welcome GIF" style="width: 300px; height: auto;"/>
+    <button id="startQuizBtn">Start Quiz</button>
+</div>
+
+<div id="quiz">
+    <div id="questionBox"></div>
+    <button id="Previous" onclick="previous()">Previous</button>
+    <button id="Next" onclick="next()" disabled>Next</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
