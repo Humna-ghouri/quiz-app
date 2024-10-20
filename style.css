@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     color: #333;
@@ -50,4 +50,147 @@ label {
 
 #questionBox {
     margin-bottom: 20px;
+} */
+
+
+/* 
+
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/gradient-question-mark-pattern-design_23-2149423892.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: visible;
+
 }
+/* Welcome Page Styling - Light Theme (No White) */
+#welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #032b3b 0%, #032b3b 100%);
+    color: #83bbd1;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+#welcome h1 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #92d3ec;
+}
+
+#welcome img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#startQuizBtn {
+    background-color: #000000;
+    color: #a2d0eb;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#startQuizBtn:hover {
+    background-color: #5c5c5c;
+    transform: scale(1.05);
+}
+
+
+/* Quiz Page Styling */
+#quiz {
+    display: none;
+    background-color: #0e0f0f9a;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+#questionBox p {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 12px 0;
+    text-align: left;
+}
+.option{
+    color: #ca3939;
+}
+button {
+    background-color: #030303;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #545355;
+}
+
+#Next, #Previous {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#Previous {
+    display: inline-block;
+    background-color: #f70606;
+}
+
+#Previous:hover {
+    background-color: #ca3939;
+}
+
+#questionBox {
+    margin-bottom: 20px;
+    background-color: #edf2f4fb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.quiz-result {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    color: #333; /* Optional: You can change the color */
+}
+
+
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+ med

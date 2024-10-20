@@ -6,6 +6,8 @@
     <title>JavaScript Quiz</title>
     <link rel="stylesheet" href="style.css">
      <!-- Include SweetAlert CSS -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 </head>
 <body>
@@ -19,7 +21,13 @@
 <div id="quiz">
     <div id="questionBox"></div>
     <button id="Previous" onclick="previous()">Previous</button>
-    <button id="Next" onclick="next()" disabled>Next</button>
+    <button id="Next" onclick="next()" >Next</button>
+</div>
+<div id="result" style="display: none;">
+    <h2>Quiz Results</h2>
+    <p id="scoreMessage"></p>
+    <img id="resultGif" style="width: 300px; height: auto;" alt="Result GIF"/>
+    <button id="retryQuizBtn">Retry Quiz</button>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
